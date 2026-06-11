@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Alunos</h1>
+
+        <form id="formCadastro">
+            <input type="text" id="nome" placeholder="Nome do aluno">
+
+            <input type="email" id="email" placeholder="E-mail">
+
+            <input type="text" id="curso" placeholder="Curso">
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <p id="mensagem"></p>
+
+        <h2>Alunos Cadastrados</h2>
+
+        <div id="listaAlunos"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
